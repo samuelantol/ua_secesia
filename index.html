@@ -37,22 +37,8 @@
 <body>
 
 <div id="slideshow">
-  <img class="active" src="danuvius_en.svg" alt="Danuvius English">
-  <img src="danuvius_sk.svg" alt="Danuvius Slovak">
+  <img class="active" src="SNG_tiraz_3840x2160.svg" alt="Danuvius English">
 </div>
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const images = document.querySelectorAll("#slideshow img");
-        let currentIndex = 0;
-
-        setInterval(() => {
-            images[currentIndex].classList.remove("active");
-            currentIndex = (currentIndex + 1) % images.length;
-            images[currentIndex].classList.add("active");
-        }, 10000);
-    });
-</script>
 
 </body>
 </html>
